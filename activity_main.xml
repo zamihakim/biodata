@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi Kalkulator Bidang Datar"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Masukan Panjang / Alas / Diameter"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/edtPanjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Masukan Panjang / Alas / Diameter"
+        android:inputType="textPersonName"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Masukan Lebar / Tinggi"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/edtLebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Masukan Lebar / Tinggi"
+        android:inputType="textPersonName"
+        android:textColor="#000000" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/btnPersegi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="htgPersegi"
+        android:text="Hitung Persegi" />
+
+    <Button
+        android:id="@+id/btnSegitiga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="htgSegitiga"
+        android:text="Hitung Segitiga" />
+
+    <Button
+        android:id="@+id/btnLingkaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="htgLingkaran"
+        android:text="Hitung Lingkaran" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/txtNilai1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txtNilai2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txtLuas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txtKeliling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000" />
+
+</LinearLayout>
+
